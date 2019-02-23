@@ -13,6 +13,10 @@ header {
   justify-content:space-between;
   align-items:center;
   border-bottom:1px solid black;
+  width:100%;
+  position:fixed;
+  z-index:1;
+  background-color:white;
 }
 
 header a {
@@ -40,4 +44,33 @@ header a {
 
 .headitem {
   margin-right:20px;
+}
+
+/* Main */
+
+main {
+  display:flex;
+  position:relative;
+  top:81px;
+}
+
+/* Left Column */
+
+.column {
+  display:inline-flex;
+  flex-direction:column;
+  border:1px solid red;
+  height:500px;
+}
+
+.col-large {
+  width: 630px;
+}
+
+.col-med {
+  width: 300px;
+}
+
+.col-small {
+  width: 240px;
 }
