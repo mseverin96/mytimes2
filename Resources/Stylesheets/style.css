@@ -1,0 +1,43 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+/* Header */
+
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-bottom:1px solid black;
+}
+
+header a {
+  color:black;
+}
+
+.headcont1 {
+  display:inline;
+  display:flex;
+  color:MediumAquamarine;
+  padding:10px 0 10px 30px;
+  width:156px;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.headcont2 {
+  padding:10px 50px 10px 0;
+  display:flex;
+}
+
+.headcont2 nav ul li {
+  display:inline-block;
+}
+
+.headitem {
+  margin-right:20px;
+}
