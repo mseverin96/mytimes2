@@ -52,25 +52,74 @@ main {
   display:flex;
   position:relative;
   top:81px;
+  justify-content:center;
+  padding:20px 50px;
 }
 
-/* Left Column */
+.text {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.pictext {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
 
 .column {
   display:inline-flex;
   flex-direction:column;
   border:1px solid red;
   height:500px;
+  margin:20px;
 }
+
+.box {
+
+}
+
+/* Left Column */
 
 .col-large {
   width: 630px;
+  display:inline-flex;
 }
+
+.L1 {
+display:flex;
+flex-direction:column;
+}
+
+.L1pic {
+  background-image:url("../Pics/img-story-main.png");
+  width:629px;
+  height:300px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.L1pic .pictext {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  padding:20px;
+}
+
+/* Center Column */
 
 .col-med {
   width: 300px;
+  display:inline-flex;
 }
+
+/* Right Column */
 
 .col-small {
   width: 240px;
+  display:inline-flex;
 }
